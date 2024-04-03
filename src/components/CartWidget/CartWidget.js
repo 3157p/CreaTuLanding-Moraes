@@ -1,10 +1,14 @@
-import cart from "./assets/cart.png"
+import cart from "./assets/cart.jpg"
 const CartWidget = () =>{
+
     return(
-        <div>
-            <img src={cart} alt="cart-widget" />
-            0
-        </div>
+        <>
+        <label>
+        <img src={cart} width='48' height='48' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'></img>
+        0
+        </label>
+        
+        </>
     )
 }
 
